@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nitro",
+  "version": "${version}",
+  "name": "NITRO",
+  "description": "Utility client: Base Finder, Light Detector, Spawner Alert, Freecam, Storage ESP, Block ESP, Seed Ore ESP, Player ESP, Fullbright, Custom Sky, Clear Weather, Swing Animation, Motion Blur, Target HUD, Spotify HUD, Keystrokes, Armor HUD, Auto Totem, Auto Crystal, Anchor Macro.",
+  "authors": ["you"],
+  "environment": "client",
+  "mixins": ["nitro.mixins.json"],
+  "entrypoints": {
+    "client": ["dev.nitro.NitroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
